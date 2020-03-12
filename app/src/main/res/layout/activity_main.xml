@@ -37,15 +37,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="IMC:"
-            android:layout_margin="20dp"
-            android:layout_gravity="center_horizontal"
-            />
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
             android:id="@+id/txtSituacaoPeso"
-            android:layout_margin="20dp"
             android:layout_gravity="center_horizontal"
             android:text="Estado Peso:"
             />
@@ -57,7 +49,6 @@
             android:src="@drawable/perfil"
             android:layout_gravity="center_horizontal"
             />
-
 
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
