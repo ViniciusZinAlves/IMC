@@ -41,7 +41,7 @@ public class MainActivity extends AppCompatActivity {
                 if (fImc <= 18.5)
                 {
                     imgResultadoImc.setImageResource(R.drawable.abaixopeso);
-                    txtSituacaoPessoa.setText("Abaixo do Peso");
+                    txtSituacaoPessoa.setText("Abaixo do Peso" + fImc);
                 } else if (fImc <= 24.9)
                 {
                     imgResultadoImc.setImageResource(R.drawable.normal);
